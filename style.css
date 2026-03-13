@@ -61,14 +61,8 @@ section::after {
 }
 
 .title h1 {
-  font-size: 32px;
+  font-size: 34px;
   font-weight: 600;
-}
-
-.title h2 {
-  font-size: 14px;
-  font-weight: 200;
-  color: #edf0f0;
 }
 
 .fa-github,
@@ -83,9 +77,20 @@ section::after {
   gap: 1rem;
 }
 
-.title {
+.details {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 0.25rem;
+  margin-top: 42px;
+  gap: 34px;
+}
+
+.larger-text {
+  font-size: 18px;
+  font-weight: 200px;
+  margin-top: 10px;
+}
+
+.smaller-text {
+  font-size: 14px;
 }
