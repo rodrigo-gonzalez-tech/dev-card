@@ -85,12 +85,30 @@ section::after {
   gap: 34px;
 }
 
-.larger-text {
+.content {
   font-size: 18px;
   font-weight: 200px;
   margin-top: 10px;
 }
 
-.smaller-text {
-  font-size: 14px;
+.label {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(243, 245, 245, 0.5);
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  margin-top: 10px;
+  font-size: 18px;
+  padding: 0.45rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid rgba(243, 245, 245, 0.25);
 }
