@@ -4,7 +4,7 @@ A minimalist yet aesthetic developer "profile card" featuring a glassmorphism de
 
 Cool enough to use as a digital version of a business card for developers!
 
-[Check it out]()
+[Check it out](https://rodrigo-gonzalez-tech.github.io/dev-card/)
 
 ![](./screenshot.png)
 
