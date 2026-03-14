@@ -5,6 +5,11 @@
   font-family: sans-serif;
 }
 
+::selection {
+  background-color: rgba(201, 116, 143, 0.4);
+  color: #f3f5f5;
+}
+
 section {
   position: relative;
   min-height: 100vh;
@@ -69,12 +74,21 @@ section::after {
 .fa-linkedin {
   color: #f3f5f5;
   font-size: 32px;
+  transition: transform 0.2s ease;
 }
 
 .socials {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+.fa-github:hover {
+  transform: scale(1.2);
+}
+
+.fa-linkedin:hover {
+  transform: scale(1.2);
 }
 
 .details {
@@ -111,4 +125,8 @@ section::after {
   padding: 0.45rem 0.85rem;
   border-radius: 999px;
   border: 1px solid rgba(243, 245, 245, 0.25);
+}
+
+.tag:hover {
+  background: rgba(243, 245, 245, 0.25);
 }
